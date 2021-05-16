@@ -13,7 +13,8 @@ body{
 }
 
 #navbar #logo img{
-    width: 150px;
+    width: 90px;
+    height: 45px;
     margin: 5px;
 }
 
