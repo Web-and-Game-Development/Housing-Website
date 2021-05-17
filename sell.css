@@ -1,0 +1,56 @@
+.imageContainer::before{
+    z-index: -1;
+    background: url("image-4.jfif") no-repeat center center/cover;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 75%;
+    top: 51px;
+    left: 0;
+    opacity: 95%;
+    
+ }
+ .imageContainer{
+    font-family: 'Baloo Bhai 2', cursive;
+    margin-left: 25px;
+ }
+ #head{
+     color: rgb(250, 10, 22);
+     font-size: 2.5rem;
+     font-weight: bold;
+     margin-top: 100px;
+     
+    }
+    
+.content{
+    font-size: 1.2rem;
+    color: rgb(18, 18, 241);
+    width: 50% ;
+ }
+ #location{
+    font-size: 1.7rem;
+ }
+ 
+ #searchbutton{
+    height: 20%;
+    width: 20%;
+    color: white;
+    border-radius: 0px 4px 4px 0px;
+    font-size: 20px;
+    padding: 0.45rem 0.4rem;
+    background-color: rgb(243, 42, 42);
+    margin-left: -3px;
+    margin-top: 15px;
+}
+#searchbutton:hover{
+    background-color: rgb(182, 5, 5);
+}
+#below{
+    color: black;
+    margin-top: 150px;
+
+}
+#below #img{
+    margin-left: 300px;
+    width : 100%;
+}
