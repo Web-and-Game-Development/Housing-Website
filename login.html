@@ -86,15 +86,15 @@ a{
         <input id="password"  type="password" placeholder="password" pattern=".{5,10}" required title="Password must be between 5 to 10 characters">
         <br>
         <div class="login">
-            <a href="#">Login</a> 
+            <a href="#" onclick = "myFunction" >Login</a> 
         </div>
         <hr>
         <div class="login" id = "Google">
-            <a href="#" >Continue with Google</a> 
+            <a href="#" onclick = "myFunction">Continue with Google</a> 
         </div>
         <br>
         <div class="login" id = "Facebook">
-            <a href="#" >Continue with Facebook</a> 
+            <a href="#" onclick = "myFunction" >Continue with Facebook</a> 
         </div>
         <br>
         <a href="#">forgot password</a>
@@ -103,6 +103,11 @@ a{
     </form>
 
     </div>
-    
+     <script>
+      function myFunction() {
+        alert("Login Successfull");
+        window.location = "index.html";
+      }
+   </script>
 </body>
 </html>
