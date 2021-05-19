@@ -55,6 +55,8 @@
 .photos h3{
     font-size: 1.75rem;
     font-weight: bold;
+    color: white;
+    text-align: center;
 }
 
 .images{
@@ -70,6 +72,7 @@
 }
 
 .home{
+    color: black;
     margin: 4px;
     background-color: rgb(211, 206, 206);
 }
