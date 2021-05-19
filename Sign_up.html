@@ -73,10 +73,15 @@ input{
         
         <input type="checkbox"  class="gen" required> I agree to the <a href="#">terms of services</a>
 
-        <input type="submit" value="Sign Up" >
+        <input type="button" value="Sign Up" onclick="myFunction()">
     </form>
-
-    </div>
+    <script>
+      function myFunction() {
+        alert("Your are Successfully registered.");
+        window.location = "index.html";
+      }
+   </script>
+   </div>
     
 </body>
 </html>
