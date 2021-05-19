@@ -1,15 +1,14 @@
 body{
    background-image: url("bg-feedback.jpeg");
    background-size: 100% 125%;
+   text-align: center;
 }
 
 h1{
-   text-align: center;
    color: #D62E99;
 }
 
 p {
-   text-align: center;
    color: #D62E99;
    font-size: 30px;
    font-weight: bold;
