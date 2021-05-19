@@ -1,10 +1,13 @@
 body{
    background-image: url("bg-AboutUs.jpeg");
    background-size: 100% 250%;
+   text-align: center;
+   color: #FF0000;
+   font-weight: bold;
+   text-shadow: 1px 1px #6B1275;
 }
 
 h1 {
-   text-align: center;
    border-bottom: double;
    border-color: black;
    border-width: 15px;
@@ -16,6 +19,5 @@ h1 {
 }
 
 .info p {
-   text-align: center;
    font-size: 24px;
 }
