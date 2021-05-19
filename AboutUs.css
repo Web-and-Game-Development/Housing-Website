@@ -1,3 +1,8 @@
+body{
+   background-image: url("bg-AboutUs.jpeg");
+   background-size: 100% 250%;
+}
+
 h1 {
    text-align: center;
    border-bottom: double;
