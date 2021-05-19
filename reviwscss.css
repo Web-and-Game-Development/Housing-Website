@@ -24,7 +24,8 @@
 .reviewbox{
     display: flex;
     flex-direction: column;
-    color: ghostwhite;
+    color: black;
+    font-weight: bold;
     height: 320px;
     width: 250px;
     margin-right: -300px;
