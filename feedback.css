@@ -20,6 +20,7 @@ label {
 
 .who-am-I {
    border: 2px solid red;
+   background: rgba(24, 252, 0, 0.5);
 }
 
 .email input {
