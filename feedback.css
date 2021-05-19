@@ -30,12 +30,20 @@ input {
    align-items: center;
    padding: 6px 8px;
    border: 2px solid red;
+   font-size: 15px;
+   font-weight: bold;
+   color: #000000;
+   background: rgba(24, 252, 0, 0.5);
 }
 
 textarea {
    padding: 6px 8px;
    border: 2px solid red;
    resize: none;
+   font-size: 15px;
+   font-weight: bold;
+   color: #000000;
+   background: rgba(24, 252, 0, 0.5);
 }
 
 .btn {
