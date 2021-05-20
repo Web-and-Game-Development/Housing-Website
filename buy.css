@@ -56,25 +56,31 @@
 }
 .photos{
     font-family: 'Baloo Bhai 2', cursive;
-    margin-top: 190px;
+  
    
 }
 
 .photos h3{
+    margin-top : 150px;
     font-size: 1.75rem;
     font-weight: bold;
-    color: white;
+    color: black;
     text-align: center;
 }
 
 .images{
     display: flex;
     justify-content: space-around;
-    
+     width: 100%;
+    height: 550px;
+}
+
+.home{
+   width: 25%;
 }
 
 .images img{
-    width: 300px;
+    width: 100%;
     height: 300px;
 
 }
