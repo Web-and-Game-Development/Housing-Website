@@ -1,3 +1,11 @@
+html{
+    margin : 0px;
+     max-width: 100vw;
+}
+html{
+   margin: 0px;
+   max-width: 100vw;
+}
 .imageContainer::before{
     z-index: -1;
     background: url("image-1.jfif") no-repeat center center/cover;
