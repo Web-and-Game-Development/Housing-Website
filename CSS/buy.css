@@ -1,6 +1,6 @@
 .imageContainer::before{
     z-index: -1;
-    background: url("image-3.jfif") no-repeat center center/cover;
+    background: url("../Images/image-3.jfif") no-repeat center center/cover;
     content: "";
     position: absolute;
     width: 100%;
