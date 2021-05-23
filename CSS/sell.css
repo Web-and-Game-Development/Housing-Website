@@ -1,6 +1,6 @@
 .imageContainer::before{
     z-index: -1;
-    background: url("/image-4.jfif") no-repeat center center/cover;
+    background: url("https://github.com/Web-and-Game-Development/Housing-Website/blob/main/image-4.jfif") no-repeat center center/cover;
     content: "";
     position: absolute;
     width: 100%;
