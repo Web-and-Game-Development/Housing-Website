@@ -8,7 +8,7 @@ html{
 }
 .imageContainer::before{
     z-index: -1;
-    background: url("rent_image.jfif") no-repeat center center/cover;
+    background: url("../Images/rent_image.jfif") no-repeat center center/cover;
     content: "";
     position: absolute;
     width: 100%;
