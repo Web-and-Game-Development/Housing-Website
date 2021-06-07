@@ -49,7 +49,7 @@
             Find out the best selling options near your home so that you can get maximum profit out of your preoperty.
             <br>
             <input type="text" placeholder="Enter your address" id= "location" style="height: 2.2rem;">
-            <button id = "searchbutton">Get Started</button>
+            <button id = "searchbutton" onclick = "func()">Get Started</button>
             <br>
             Or contact +180180180
             <br>
@@ -95,4 +95,12 @@
       </footer>
 </body>
 
+    <script>
+    function func(){
+        var place = document.getElementById("location").value;
+        var link = "http://www.google.co.in/maps/place/";
+        link += place;
+        window.open(link, "_blank");
+    }
+</script>
 </html>
