@@ -1,9 +1,9 @@
-# Housing-Website
-This is a project for our WD Assignment. 
-This is for housing website
-Students in this project are :-
+**Primus Housing** is a place where we care about the people. 
+The place where we try to give them one of the most basic necessity in these modern times: _A roof over the head_
+People without a place to call home are the ones who need help and we have come forward to help them with everything we have got. 
 
-1. 12012008 Rahul Shrimali CS A1
-2. 12012014 Harsh Malik CS A2
-3. 12012083 Ritesh Gupta CS A2
-4. 12012003 Mohit Pati CS A1
+**Primus Housing** is the place where you can find a house to buy or rent. People can also list their houses for selling. 
+
+We will continue to work until each and every person in this world has a roof over their head.
+
+_**To a better world**_
