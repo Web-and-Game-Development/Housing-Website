@@ -47,7 +47,7 @@
             <br>
             <br>
             <input  type="text" placeholder="Enter location" id="location" style="width: 20rem; height: 2.3rem;">
-            <button id="searchbutton">Get Started</button>
+            <button id="searchbutton" onclick = "func()">Get Started</button>
             <br>
             Or contact +180180180
             <br>
@@ -147,4 +147,12 @@
 
 
 </body>
+    <script>
+    function func(){
+        var place = document.getElementById("location").value;
+        var link = "http://www.google.co.in/maps/place/";
+        link += place;
+        window.open(link, "_blank");
+    }
+</script>
 </html>
