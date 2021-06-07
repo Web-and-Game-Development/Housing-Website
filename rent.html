@@ -46,7 +46,7 @@
         Search nearby, Apartments, Villas, homes for least possible rent all around the country.
         <br>
         <input type="text" placeholder="Enter location" id="location" style="height: 2.2rem;width: 22rem;">
-        <button id="searchbutton">Get Started</button>
+        <button id="searchbutton" onclick = "func()">Get Started</button>
         <br>
         Or contact +180180180
         <br>
@@ -133,4 +133,12 @@
 
 
 </body>
+<script>
+    function func(){
+        var place = document.getElementById("location").value;
+        var link = "http://www.google.co.in/maps/place/";
+        link += place;
+        window.open(link, "_blank");
+    }
+</script>
 </html>
