@@ -44,9 +44,9 @@
             <label for="location"> <h1> Discover Your New Home </h1></label>
             <label for="location">Let’s find a home that’s perfect for you !! </label><br><br>
             
-            <input type="text" class="searchbar" placeholder="California Institute Of Technology ,USA">
+            <input type="text" class="searchbar" placeholder="California Institute Of Technology ,USA" id = "location">
             
-            <button class="searchbutton">Search</button>
+            <button class="searchbutton" onclick = "func()">Search</button>
         </div>
     </div>
 
@@ -199,4 +199,12 @@
  </div>
 </div>
 
+    <script>
+    function func(){
+        var place = document.getElementById("location").value;
+        var link = "http://www.google.co.in/maps/place/";
+        link += place;
+        window.open(link, "_blank");
+    }
+</script>
 </html>
